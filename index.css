@@ -1,0 +1,49 @@
+@font-face {
+    font-family: cursed;
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+@font-face {
+    font-family: koulen;
+    src: url("fonts/Koulen-Regular.ttf");
+}
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1525973132219-a04334a76080?q=80&w=1985&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 10px auto;
+}
+
+h1 {
+    font-family: koulen;
+}
+
+h2 {
+    background: black;
+    color: red;
+    font-size: 40px;
+    font-family: cursed;
+    padding: 5px 5px;
+}
+
+button {
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    font-family: cursed;
+}
+
+.btn-reset {
+    margin-top: 180px;
+}
